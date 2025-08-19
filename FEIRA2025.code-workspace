@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../feira frei/public"
+		},
+		{
+			"path": "../feira frei/src"
+		},
+		{
+			"path": "../feira frei/node_modules"
+		}
+	],
+	"settings": {}
+}
