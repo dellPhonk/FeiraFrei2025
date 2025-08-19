@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes , Route } from "react-router";
-import Inicio from "./pages/inicio";
+import Inicio from "./pages/INICIO/inicio";
 
 export default function Navegacao(){
     return(
