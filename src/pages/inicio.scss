@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap');
+
 .container-inicio{
     height: 530px;
     background-image:url(/src/assets/background.png);
@@ -37,4 +40,59 @@
     }
 
 }
+
+.tituloPrincipal{
+    margin-top: 50px;
+
+    h1{
+      padding-left: 244px;
+      color: #F3884B;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 5rem;
+      
+    }
+    h2{
+        padding-left: 313px;
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 3rem;
+    }
+    p{
+        padding-left: 273px;
+        color: #FFFFFF;
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400; // mais leve
+    };
+}
+
+.botaoInscreva{
+
+    .inscrevaIMG{
+        width: 390px;
+    }
+} 
+
+.event-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #004aad;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+  
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+  
+    .date {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+  }
+
 }
