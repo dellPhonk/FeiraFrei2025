@@ -1,9 +1,40 @@
 .container-inicio{
+    height: 530px;
+    background-image:url(/src/assets/background.png);
+
     nav{
         display: flex;
-    };
-    nav img{
-        width: 50px;
+
+    .logoland{
+        width: 66px;
+        height: 78px;
+        margin-left: 20px;
+        padding: 10px;
     }
     
+    .text-logo {
+    color: white;
+    padding: 40px;
+    padding-left: 0px;    
+    }
+    
+    .Batao{
+        display: flex;
+        border: 2px solid rgb(230, 228, 228);
+        border-radius: 15px;
+        text-decoration: none;
+        height: 42px;
+        align-items: center;
+        margin: 20px;
+        color: #E6E4E4;
+        padding: 0px 10px;
+
+    };
+
+    .Batoes{
+        display: flex;
+        margin-left: 400px;
+    }
+
+}
 }
