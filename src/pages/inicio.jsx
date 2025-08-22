@@ -8,7 +8,7 @@ export default function Inicio() {
         <div className="container-inicio">
            <nav> <img src={logofrei} alt="logofrei" />
             <Link to={"/"}>Inicio</Link>
-            <Link to={"/"}>Sobre</Link>
+            <Link to={"/sobre"}>Sobre</Link>
             </nav>
         </div>
     )
