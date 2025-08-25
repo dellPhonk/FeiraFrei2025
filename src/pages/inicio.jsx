@@ -1,6 +1,8 @@
 import { useState } from "react";
 import logofrei from '../assets/logofrei.png';
 import BotaoInscreva from '../assets/bt_01.png';
+import ImagemSec from '../assets/IMG_4941.png';
+import Rectangle from '../assets/Rectangle.png';
 import { Link } from "react-router";
 import './inicio.scss'
 import '../styles/global.scss'
@@ -40,6 +42,35 @@ export default function Inicio() {
       <p>14:00 DA TARDE</p>
     </div>
   </section>
+  <section className="comoFunciona">
+    <div className="texto02">
+      <h4>COMO FUNCIONA A <br />
+      FEIRA DAS PROFISSÕES?</h4>
+      <p>Você pode convidar qualquer <br /> amigo ou familiar para visitar <br /> nossa escola e aproveitar <br /> diversas atividades especiais.</p>
       </div>
+      <div>
+      <img className="ComoFuncIMG" src={ImagemSec} alt="COMO FUNCIONA_IMG" />
+      </div>
+  </section>
+  <section className="Programacao">
+    <h1>
+      Programação
+    </h1>
+    <div className="patio">
+    <img className="Rectangle" src={Rectangle} alt="obejeto-01" />
+      <div className="lista01">
+      <h2>Patio</h2>
+      <h3>Estandes de empresas convidadas:</h3>
+      <ul>
+        <li>Casa da Mulher Paulistana</li>
+        <li>Conexão Bem Maior</li>
+        <li>Óticas Carol</li>
+        <li>STB
+        </li>
+      </ul>
+      </div>
+    </div>
+  </section>
+  </div>
     )
 }
